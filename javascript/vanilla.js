@@ -52,4 +52,10 @@ function hasClass(element, cls) {
 
 }(window.document, window.EventTarget || window.Element));
 
-
+// Removes a class from the node. This will work with older browsers.
+function removeClass( classname, element ) {
+    var cln = element.className;
+    var rxp = new RegExp('(?:^|\\s)'+classname+'(?!\\S)');
+    cln = cln.replace( rxp, '' );
+    element.className = cln;
+}
