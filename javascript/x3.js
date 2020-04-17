@@ -1,17 +1,31 @@
-// X3 Javascript framework
-// Author Mark Dijkstra
-// Version 1.0.0
-
-// Available API's
-//
-// .on()
-// .each()
-// .hasClass()
-// .addClass()
-// .removeClass()
-
-// How to use: X3('body').addClass('hello');
-
+/**
+ * X3 Javascript framework
+ * Author Mark Dijkstra
+ * Version 1.0.0
+ * 
+ * Available API's
+ *
+ * *** EVENTS ***
+ *
+ * .on()
+ *
+ * *** MANIPULATION ***
+ *
+ * .hasClass()
+ * .addClass()
+ * .removeClass()
+ *
+ * *** MISCELLANEOUS ***
+ *
+ * .each()
+ * 
+ * *** TRAVERSING ***
+ * 
+ * .parents()
+ *
+ * How to use: 
+ * X3('body').addClass('hello');
+*/
 var X3 = (function () {
 
     'use strict';
